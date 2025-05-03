@@ -12,6 +12,7 @@ var optionsChapter1 = map[string]func(){
 	"dup1":  ch1.Dup1,
 	"dup3":  ch1.Dup3,
 	"map1":  ch1.Map1,
+	"fetch": ch1.Fecth,
 }
 
 func main() {
