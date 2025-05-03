@@ -9,6 +9,7 @@ import (
 
 func Dup1() {
 	// Map is a reference to the data created by make
+	fmt.Println("Enter text lines (press Ctrl+D to finish):")
 	counts := make(map[string]int)
 	input := bufio.NewScanner(os.Stdin)
 	for input.Scan() {
