@@ -1,7 +1,6 @@
 package ch1
 
 import (
-	"fmt"
 	"image"
 	"image/color"
 	"image/gif"
@@ -23,7 +22,6 @@ func Lissajous() {
 }
 
 func lissajous(out io.Writer) {
-	fmt.Println("--- Lissajous ---")
 	const (
 		cycles  = 5
 		res     = 0.001

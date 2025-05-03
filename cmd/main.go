@@ -12,7 +12,7 @@ func main() {
 	// ch1.Dup1()
 	// ch1.Dup3()
 
-	ch1.Map1()
+	// ch1.Map1()
 
-	// ch1.Lissajous()
+	ch1.Lissajous()
 }
