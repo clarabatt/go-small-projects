@@ -14,7 +14,3 @@
 
 # Go workspace file
 go.work
-
-# Go workspace file
-main
-lissajous
