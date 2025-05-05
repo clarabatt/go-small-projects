@@ -6,13 +6,14 @@ import (
 )
 
 var optionsChapter1 = map[string]func(){
-	"echo1": ch1.Echo1,
-	"echo2": ch1.Echo2,
-	"echo3": ch1.Echo3,
-	"dup1":  ch1.Dup1,
-	"dup3":  ch1.Dup3,
-	"map1":  ch1.Map1,
-	"fetch": ch1.Fecth,
+	"echo1":    ch1.Echo1,
+	"echo2":    ch1.Echo2,
+	"echo3":    ch1.Echo3,
+	"dup1":     ch1.Dup1,
+	"dup3":     ch1.Dup3,
+	"map1":     ch1.Map1,
+	"fetch":    ch1.Fecth,
+	"fetchall": ch1.Fetchall,
 }
 
 func main() {
