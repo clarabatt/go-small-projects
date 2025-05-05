@@ -2,18 +2,80 @@
 
 Exercices and examples for the book "The Go Programming Language" by Alan A. A. Donovan and Brian W. Kernighan.
 
-## Menu
+## Chapter 1
 
-There is a menu to help you navigate through the exercises, but some of the exercises require a parameter in the command line.
-Check this list to see which exercises require a parameter:
+### [Echo1, Echo2, Echo3](internal/ch1/echo.go)
 
-### Chapter 1
+#### How to run
 
-1. **Echo1**: no parameter
-2. **Echo2**: no parameter
-3. **Echo3**: no parameter
-4. **Dup1**: no parameter
-5. **Dup3**: filename `go run cmd/main/main.go assets/dup3_sample.txt`
-6. **Lissajous**: run alone by using `go build cmd/lissajous/lissajous.go && ./lissajous > assets/lissajous.gif`
-7. **Fetch**: url `go run cmd/main/main.go http://gopl.io`
-8. **Fetchall**: urls `go run cmd/main/main.go golang.org gopl.io godoc.org`
+```bash
+go run cmd/main/main.go
+# No parameter
+```
+
+#### Topics covered
+
+- Basic syntax
+- Command line arguments
+- Basic I/O
+
+### [Dup1, Dup3](internal/ch1/dup.go)
+
+#### How to run
+
+```bash
+# Dup1 - no parameter
+go run cmd/main/main.go
+
+# Dup3 - filename
+go run cmd/main/main.go assets/dup3_sample.txt
+```
+
+#### Topics covered
+
+- Maps
+- File I/O
+- Command line arguments
+
+### [Lissajous](internal/ch1/lissajous.go)
+
+#### How to run
+
+```bash
+go build cmd/lissajous/lissajous.go && ./lissajous > assets/lissajous.gif
+# Run from a different model
+```
+
+#### Topics covered
+
+- Image library
+- Math library
+
+### [Fetch](internal/ch1/fetch.go)
+
+#### How to run
+
+```bash
+go run cmd/main/main.go http://gopl.io
+# URL
+```
+
+#### Topics covered
+
+- HTTP
+- Copy
+
+### [Fetchall](internal/ch1/fetchall.go)
+
+#### How to run
+
+```bash
+go run cmd/main/main.go golang.org gopl.io godoc.org
+# URLs
+```
+
+#### Topics covered
+
+- HTTP
+- Goroutines
+- Channels
