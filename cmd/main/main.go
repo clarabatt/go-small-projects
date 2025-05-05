@@ -14,6 +14,7 @@ var optionsChapter1 = map[string]func(){
 	"map1":     ch1.Map1,
 	"fetch":    ch1.Fecth,
 	"fetchall": ch1.Fetchall,
+	"server":   ch1.Server,
 }
 
 func main() {
