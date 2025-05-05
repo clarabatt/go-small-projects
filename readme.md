@@ -79,3 +79,15 @@ go run cmd/main/main.go golang.org gopl.io godoc.org
 - HTTP
 - Goroutines
 - Channels
+
+### [Server](internal/ch1/server.go)
+
+#### How to run
+
+```bash
+go run cmd/main/main.go
+```
+
+#### Topics covered
+
+- HTTP server
